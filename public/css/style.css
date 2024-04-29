@@ -1,0 +1,98 @@
+body{
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar{
+    position: fixed;
+    top: 0;
+    height: 100vh;
+    width: 25%;
+    align-items: center;
+    float: left;
+}
+.home{
+    width: 75%;
+    float: right;
+}
+.music_img{
+    margin: 10%;
+    height: 30%;
+    width: 60%;
+}
+ul li{
+    list-style-type: none;
+    margin: 20%;
+    font-size: 30px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    margin-top: 10%;
+}
+a:hover{
+    color: #BF6D47;
+}
+.active{
+    color: #BF6D47;
+}
+.line{
+    width: 1px;
+    background-color: white;
+    height: 100vh;
+    float:right ;
+}
+.content{
+    margin: 10%;
+}
+
+.cards{
+    width: 100%;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.card_img{
+    width: 40%;
+    float: left;
+}
+
+.card_content{
+    width: 60%;
+    float: right;
+    margin-top: 5%;
+}
+input[type=text],input[type=email], select {
+    width: 60%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    vertical-align: top;
+}
+
+#massage{
+    height: 30%;
+    width: 60%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.contact_button{
+    padding: 15px 35px 15px 35px;
+    background-color: #BF6D47;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.contact_button:hover{
+    background-color: #8f4929;
+}
